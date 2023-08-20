@@ -1,0 +1,34 @@
+    Escreva("Responda as perguntas, para descobrir que tipoo de transporte que você está considerando,.")
+
+       escreva("É Terrestre(Sim ou Não)")
+       leia(opcao)
+       
+       se (opcao == "sim" ou "Sim" ou "SIM") então
+          escreva("Cabe apenas 1 (Sim ou Não)?")
+          leia(opcao)
+          
+          se (opcao == "sim" ou "Sim" ou "SIM" entao
+           escreva("É Pesado (Sim ou Não)?")
+           leia(opcao)
+           
+           se (opcao == "Não" ou "NÃO" ou "não") entao
+           escreva("Tem Pedal (Sim ou Não)?")
+           leia(opcao)
+           
+           se (opcao == "sim" ou "Sim" ou "SIM") entao
+           escreva("O transporte escolhido foi a bicicleta.")
+            Senão
+               Escreva("O transporte escolhido foi a moto.")
+            FimSe
+            
+         Senão
+            Escreva("O transporte escolhido foi o trator.")
+         FimSe
+         
+         Senão
+         Escreva("O transporte escolhido foi o trator.")
+         FimSe
+         
+         Senão
+         Escreva("Opção inválida.")
+       FimSe
