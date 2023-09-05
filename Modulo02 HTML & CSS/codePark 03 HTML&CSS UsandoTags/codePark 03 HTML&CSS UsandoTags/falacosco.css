@@ -5,15 +5,11 @@
 }
 
 :root {
-  --brand-color: #fae454;
+  --brand-color: #2ecc71;
   --dark-10: #13131f;
   --dark-20: #282830;
   --dark-30: #c4c4c4;
   --dark-40: #fefbfb;
-  --support-01: #2962ff;
-  --support-02: #0bb07b;
-  --support-03: #ffce52;
-  --support-04: #f03d3d;
   --support-05: #e0e0e0;
 }
 
@@ -155,13 +151,13 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #ffdd58;
+  background-color: var(--brand-color);
   padding: 60px 0;
 }
 
 .formulario {
   width: 800px;
-  background: #ffdd58;
+  background: var(--brand-color);
   padding: 10px 10%;
   text-align: center;
 }

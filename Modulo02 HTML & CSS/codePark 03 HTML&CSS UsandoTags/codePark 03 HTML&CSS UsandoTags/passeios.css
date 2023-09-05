@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #2ecc71;
+  --dark-10: #13131f;
+  --dark-20: #282830;
+  --dark-30: #c4c4c4;
+  --dark-40: #fefbfb;
+  --support-05: #e0e0e0;
+}
+
+body {
+  background-color: var(--dark-10);
+}
+
+header {
+  display: flex;
+  height: 14vh;
+  justify-content: center;
+  align-items: center;
+}
+
+header section {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  width: 52vw;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  width: 36vw;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+li {
+  border-top: 3px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  padding: 2px;
+}
+
+#home {
+  border-top: 3px solid rgba(0, 0, 0, 0);
+  border-bottom: 2px solid var(--brand-color);
+  padding: 2px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-color);
+}
+
+header h2 {
+  color: var(--brand-color);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 24px;
+}
+
+header h3 {
+  border: solid 1px var(--brand-color);
+  padding: 5px 20px;
+  border-radius: 30px;
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  width: 133px;
+}
+
+.conta:hover {
+  color: var(--brand-color);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secao1 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-top: 7vh;
+}
+
+h1 {
+  font-family: "Lexend Deca";
+  font-size: 36px;
+  line-height: 55px;
+  color: var(--dark-40);
+  margin-bottom: 1vh;
+}
+
+.secao1 h3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark-30);
+}
+
+.secao2 P, .secao3 p {
+  font-family: Inter;
+  font-size: 22px;
+  color: var(--dark-30);
+  line-height: 40px;
+  margin-top: 4vh;
+}
+.secao2 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.titulo{
+ text-align: center;
+  
+}
+
+.img1 {
+  background-image: url("./assets/01.png");
+  background-position: center;
+  background-size: cover;
+  height: 64vh;
+  padding: 2vh 1vw;
+  margin-top: 4vh;
+}
+
+.img1 h3 ,.img2 h3 , .img3 h3 , .img4 h3 {
+  display: flex;
+  background-color: var(--brand-color);
+  color: var(--dark-40);
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Lexend Deca";
+}
+
+/* terceira seção´*/
+.secao3 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.img5 {
+  background-image: url("./assets/05.webp");
+  background-position: top;
+  background-size: cover;
+  height: 57vh;
+  padding: 2vh 1vw;
+  margin-top: 4vh;
+}
+
+ /* quarta seção´*/
+.secao4 {
+display: flex;
+flex-direction: column;
+width: 80vw;
+}
+
+.img6 {
+background-image: url("./assets/06.jpg");
+background-position: top;
+background-size: cover;
+height: 57vh;
+padding: 2vh 1vw;
+margin-top: 4vh;
+}
+
+ /* quinta seção´*/
+ .secao5 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.img4 {
+  background-image: url("./assets/04.png");
+  background-position: top;
+  background-size: cover;
+  height: 57vh;
+  padding: 2vh 1vw;
+  margin-top: 4vh;
+}
+
+
+
+ /* titulo´*/
+
+.title-form h1 {
+
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+  position: relative;
+  text-align: left;
+  color: #4c4e4e;
+  font-family: 'open_sansbold';
+  margin-left: 10px;
+  margin-bottom: 35px;
+
+}
+
+
+
+ 
+/*rodape*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  margin-top: 4vh;
+}
+
+footer h2 {
+  color: var(--brand-color);
+  font-family: "Lexend Deca";
+  font-size: 24px;
+  line-height: 30px;
+}
+
+footer p {
+  color: var(--dark-30);
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 500px;
+  margin-top: 2vh;
+}
