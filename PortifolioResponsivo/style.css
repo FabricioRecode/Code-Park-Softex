@@ -1,14 +1,12 @@
-.fotoPerfil{
-  height: 100%;
-  
-  max-width:auto;
-  border-radius: 50%;
-}
 p {
   font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
+.foto-perfil {
+  height: 100%;
+  max-width: auto;
+  border-radius: 50%;
+}
 
 .icones {
   padding-left: 5px;
@@ -23,13 +21,13 @@ p {
   color: white;
 }
 
-.titulosVerdes {
+.titulosAzul {
   text-decoration: underline;
   text-underline-position: under;
   padding-bottom: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #18bc9c
+  color: #1855c7
 }
 
 .paragrafoBrancos {
@@ -46,31 +44,35 @@ html {
 }
 
 p {
-  color: black ;
+  color: black !important;
 }
 
+
 .corPrimaria {
-  background-color: #18bc9c;
-}
-.corSecundaria{
-  background-color: #2c3e50;
+  background-color: #00a7ff;
 }
 
 .itemMenu {
   color: white;
 }
-.textoBranco{
-  color: white;
+h3{
+  padding-top:90px;
 }
-.textoFooter{
+h4{
+  padding-bottom:90px;
+  margin-bottom: 0px;
+}
+.navbar{
+  background-color:#0028a1;
+  color:white
+}
+.final{
+  background-color: #0028a1;
+  padding: 0px; margin: 0px
+}
+.pfooter{
   margin: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-h3{
-  padding-top: 60px;
-}
-h4{
-  padding-top: 60px;
- 
+  color: white !important;
 }
