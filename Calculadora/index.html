@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Calculadora com JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator"> <!-- Cria um contêiner para a calculadora -->
+        <input type="text" class="display" id="resultado" readonly> <!-- Caixa de texto de exibição -->
+        <!-- Botões numéricos e de operação com eventos de clique -->
+        <button class="btn" value="1" onclick="adicionarNumero('1')">1</button>
+        <button class="btn" value="2" onclick="adicionarNumero('2')">2</button>
+        <button class="btn" value="3" onclick="adicionarNumero('3')">3</button>
+        <button class="btn operador" value="+" onclick="adicionarOperador ('+')" >+</button>
+        <button class="btn" value="4" onclick="adicionarNumero('4')">4</button>
+        <button class="btn" value="5" onclick="adicionarNumero('5')">5</button>
+        <button class="btn" value="6" onclick="adicionarNumero('6')">6</button>
+        <button class="btn operador" value="-" onclick="adicionarOperador('-')">-</button>
+        <button class="btn" value="7" onclick="adicionarNumero('7')">7</button>
+        <button class="btn" value="8" onclick="adicionarNumero('8')">8</button>
+        <button class="btn" value="9" onclick="adicionarNumero('9')">9</button>
+        <button class="btn operador" value="*" onclick="adicionarOperador('*')" >*</button>
+        <button class="btn" value="0" onclick="adicionarNumero('0')">0</button>
+        <!-- Botões para limpar e calcular -->
+        <button class="btn operador" value="=" onclick="limpar()">C</button>
+        <button class="btn operador" value="=" onclick="calcular()">=</button>
+        <button class="btn operador" value="/" onclick="adicionarOperador('+')">/</button>
+    </div>
+
+    <script src="index.js"></script> <!-- Link para o arquivo JavaScript -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>

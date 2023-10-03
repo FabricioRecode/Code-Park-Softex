@@ -1,0 +1,52 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte do texto para Arial ou uma fonte sans-serif genérica */
+  display: flex; /* Define o tipo de display como flexível, permitindo a criação de um layout flexível */
+  justify-content: center; /* Alinha os elementos filhos horizontalmente ao centro do contêiner pai */
+  align-items: center; /* Alinha os elementos filhos verticalmente ao centro do contêiner pai */
+  height: 100vh; /* Define a altura do corpo da página como 100% da altura da viewport (viewport height) */
+  margin: 0; /* Remove as margens padrão do corpo da página */
+  background-color: rgb(139, 140, 154);
+  padding-left: 300px;
+  margin-right: 300px;
+}
+
+/* Estilos para a calculadora */
+.calculator {
+  display: grid; /* Define o tipo de display como grid, permitindo a criação de um layout de grade */
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Define quatro colunas de largura igual */
+  gap: 10px; /* Define o espaçamento entre os elementos filhos como 10 pixels */
+  max-width: 300px; /* Define a largura máxima da calculadora como 300 pixels */
+  margin: auto; /* Centraliza a calculadora no centro da página */
+  background-color: rgb(9, 9, 18);
+  padding: 30px;
+  border-radius: 10%;
+}
+
+/* Estilos para a caixa de exibição */
+.display {
+  grid-column: span 4; /* A caixa de exibição ocupa 4 colunas na grade */
+  height: 40px; /* Define a altura da caixa de exibição como 40 pixels */
+  font-size: 20px; /* Define o tamanho da fonte como 20 pixels */
+  text-align: right; /* Alinha o texto à direita dentro da caixa de exibição */
+}
+
+/* Estilos para os botões */
+.btn {
+  font-size: 18px; /* Define o tamanho da fonte dos botões como 18 pixels */
+  padding: 10px; /* Adiciona um preenchimento interno de 10 pixels nos botões */
+  border-radius: 50%;
+  background-color: rgb(1, 4, 13);
+  color: antiquewhite;
+}
+.btn:hover {
+  background-color: rgb(52, 8, 109);
+  box-shadow: white 2px 2px;
+  transform: scale(1.05);
+}
+.operador {
+  background-color: rgb(42, 207, 31);
+}
