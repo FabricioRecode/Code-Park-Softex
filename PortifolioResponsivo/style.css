@@ -76,3 +76,9 @@ h4{
   padding-bottom: 15px;
   color: white !important;
 }
+.dark-mode{
+  .titulosBrancos{
+    color: white;
+    background-color: black;
+  }
+}
