@@ -7,5 +7,5 @@ try {
 } catch (error) {
   console.log("A soma não foi realizada ", error.menssage);
 } finally {
-  `Obrigado por fazer essa operação`;
+  console.log(`Obrigado por fazer essa operação`);
 }
